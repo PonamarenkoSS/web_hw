@@ -1,5 +1,5 @@
-function showMessage(name) {
+function showMessage() {
   name = prompt("Как Вас зовут?", "Имя");
   alert(`Привет, ${name}`);
 }
-showMessage(name);
+showMessage();
